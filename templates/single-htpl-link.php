@@ -675,10 +675,10 @@
 	<div class="preview-topbar">
 		<a href="<?php echo ( $back_button_link ? esc_url( $back_button_link ) : '../' ); ?>" class="btn back-btn">
 			<span class="icon-circle">
-				<!-- Left Arrow SVG -->
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="#2a1445">
-					<path d="M15 4l-8 8 8 8"></path>
-				</svg>
+				   <!-- Left Arrow with Line SVG -->
+					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+						<path d="M15 4l-8 8 8 8M7 12H24" stroke="#2a1445" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+					</svg>
 				
 			</span>
 			<?php echo esc_html( $back_button_text ); ?>
