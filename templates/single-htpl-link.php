@@ -617,15 +617,17 @@
 	align-items: center;
 	justify-content: center;
 	background-color: #f3ff2d;
-	color: #2a1445;
 	border-radius: 50%;
-	width: 35px; /* Increase width */
-	height: 35px; /* Increase height */
+	width: 32px; /* Adjust size as needed */
+	height: 32px;
 	margin: 0 10px;
-	font-weight: bold;
-	font-size: 18px; /* Increase font size */
-	padding: 2px; /* Reduce padding to move the icon closer to the edge */
-	font-size: large;
+}
+
+/* SVG styling */
+.icon-circle svg {
+	width: 20px; /* Control SVG size */
+	height: 20px;
+	fill: #2a1445; /* SVG fill color */
 }
 
 
@@ -672,12 +674,24 @@
 
 	<div class="preview-topbar">
 		<a href="<?php echo ( $back_button_link ? esc_url( $back_button_link ) : '../' ); ?>" class="btn back-btn">
-			<span class="icon-circle">&larr;</span>
+			<span class="icon-circle">
+				<!-- Left Arrow SVG -->
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="#2a1445">
+					<path d="M15 4l-8 8 8 8"></path>
+				</svg>
+				
+			</span>
 			<?php echo esc_html( $back_button_text ); ?>
 		</a>
 		<a href="<?php echo esc_url( $buynow_button_url ); ?>" class="btn buy-btn">
 			<?php echo esc_html( $buynow_button_text ); ?>
-			<span class="icon-circle">&rarr;</span>
+			<span class="icon-circle">
+				<!-- Right Arrow SVG -->
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="#2a1445">
+					<path d="M9 4l8 8-8 8"></path>
+				</svg>
+				
+			</span>
 		</a>
 	</div>
 
