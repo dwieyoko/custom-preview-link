@@ -1,0 +1,22 @@
+/*
+Admin style.
+Contain all admin style of the plugin.
+
+/* 1. General
+======================================================= */
+.ht_help_icon{
+    color: #666;
+    cursor: pointer;
+}
+.ht pre{
+    display: inline-block;
+}
+
+/* 2. Dialog
+======================================================= */
+.htpl-link_page_htpl-admin .ui-dialog img{
+    max-width: 100%;
+}
+.htpl-link_page_htpl-admin .ui-dialog{
+    top: 32px !important;
+}

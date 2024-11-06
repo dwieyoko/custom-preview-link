@@ -1,0 +1,341 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Preview Link Generator\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-05-11 05:20+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.0; wp-5.7.1\n"
+"X-Domain: htpl-generator"
+
+#: includes/Admin/Global_Settings.php:61
+msgid "/images/refresh-permalink.gif\" /></div></div>"
+msgstr ""
+
+#: includes/Taxonomies.php:26
+msgid "Add New Item"
+msgstr ""
+
+#: includes/Taxonomies.php:31
+msgid "Add or remove items"
+msgstr ""
+
+#: includes/Taxonomies.php:22
+msgid "All Items"
+msgstr ""
+
+#: includes/Custom_Posts.php:36
+msgid "All Links"
+msgstr ""
+
+#: includes/Admin/Metaboxes.php:63
+msgid "Back Button Text"
+msgstr ""
+
+#: includes/Admin/Metaboxes.php:70
+msgid "Back Button URL"
+msgstr ""
+
+#: templates/single-htpl-link.php:583
+msgid "Buy Now"
+msgstr ""
+
+#: includes/Admin/Metaboxes.php:49
+msgid "Buy Now Button Text"
+msgstr ""
+
+#: includes/Admin/Metaboxes.php:56
+msgid "Buy Now Button URL"
+msgstr ""
+
+#: includes/Taxonomies.php:21
+msgid "Categories"
+msgstr ""
+
+#: includes/Taxonomies.php:32
+msgid "Choose from the most used"
+msgstr ""
+
+#: includes/Admin/Global_Settings.php:72
+msgid "Custom Slug"
+msgstr ""
+
+#: includes/Admin/Global_Settings.php:63
+msgid "Default"
+msgstr ""
+
+#: includes/Admin/Metaboxes.php:50
+msgid "Default: Buy Now"
+msgstr ""
+
+#: includes/Admin/Metaboxes.php:64
+msgid "Default: Item Name"
+msgstr ""
+
+#: includes/Admin/Metaboxes.php:35
+msgid "Description"
+msgstr ""
+
+#: includes/Taxonomies.php:27
+msgid "Edit Item"
+msgstr ""
+
+#: includes/Custom_Posts.php:40
+msgid "Edit Link"
+msgstr ""
+
+#: includes/Admin/Global_Settings.php:80
+msgid "Favicon"
+msgstr ""
+
+#: includes/Admin/Global_Settings.php:81
+msgid ""
+"Favicon is what you see in browser tabs, bookmark bars, and within the "
+"WordPress mobile apps. Upload one here! Favicon should be square and at "
+"least 512 × 512 pixels."
+msgstr ""
+
+#: includes/Custom_Posts.php:46
+msgid "Featured Image"
+msgstr ""
+
+#: includes/Custom_Posts.php:54
+msgid "Filter items list"
+msgstr ""
+
+#: includes/Admin/Global_Settings.php:48
+msgid "General Settings"
+msgstr ""
+
+#: includes/Custom_Posts.php:38
+msgid "Generate New Link"
+msgstr ""
+
+#: includes/Custom_Posts.php:37
+msgid "Generate New Preview Link"
+msgstr ""
+
+#: includes/Admin/Global_Settings.php:55
+msgid "Global"
+msgstr ""
+
+#. Author of the plugin
+msgid "HasThemes"
+msgstr ""
+
+#: includes/Admin/Metaboxes.php:43 includes/Admin/Metaboxes.php:57
+#: includes/Admin/Metaboxes.php:71
+msgid "https://example.com/"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://hasthemes.com"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://hasthemes.com/plugins/"
+msgstr ""
+
+#: includes/Admin/Metaboxes.php:42
+msgid "Iframe URL"
+msgstr ""
+
+#: includes/Custom_Posts.php:50
+msgid "Insert into item"
+msgstr ""
+
+#: includes/Taxonomies.php:37
+msgid "Items list"
+msgstr ""
+
+#: includes/Taxonomies.php:38
+msgid "Items list navigation"
+msgstr ""
+
+#: includes/Admin/Metaboxes.php:72
+msgid "Leave empty for default."
+msgstr ""
+
+#: includes/Custom_Posts.php:57
+msgid "Link"
+msgstr ""
+
+#: includes/Custom_Posts.php:34
+msgid "Link Archives"
+msgstr ""
+
+#: includes/Custom_Posts.php:52
+msgid "Links list"
+msgstr ""
+
+#: includes/Custom_Posts.php:53
+msgid "Links list navigation"
+msgstr ""
+
+#: includes/Admin/Global_Settings.php:39
+msgid "Made with Love by HasThemes"
+msgstr ""
+
+#: includes/Admin/Metaboxes.php:36
+msgid "Meta Description. Leave empty to use auty generated description."
+msgstr ""
+
+#: includes/Custom_Posts.php:33
+msgid "nab"
+msgstr ""
+
+#: includes/Taxonomies.php:25
+msgid "New Item Name"
+msgstr ""
+
+#: includes/Custom_Posts.php:39
+msgid "New Link"
+msgstr ""
+
+#: includes/Taxonomies.php:36
+msgid "No items"
+msgstr ""
+
+#: includes/Admin/Global_Settings.php:65
+msgid "No Slug (Like page/page)"
+msgstr ""
+
+#: includes/Taxonomies.php:35
+msgid "Not Found"
+msgstr ""
+
+#: includes/Custom_Posts.php:44
+msgid "Not found"
+msgstr ""
+
+#: includes/Custom_Posts.php:45
+msgid "Not found in Trash"
+msgstr ""
+
+#: includes/Taxonomies.php:23
+msgid "Parent Item"
+msgstr ""
+
+#: includes/Taxonomies.php:24
+msgid "Parent Item:"
+msgstr ""
+
+#: includes/Custom_Posts.php:35
+msgid "Parent Link:"
+msgstr ""
+
+#: includes/Admin/Global_Settings.php:25
+msgid "Plugin Settings"
+msgstr ""
+
+#: includes/Taxonomies.php:33
+msgid "Popular Items"
+msgstr ""
+
+#: includes/Custom_Posts.php:30
+msgctxt "Post Type General Name"
+msgid "Preview Links"
+msgstr ""
+
+#: includes/Custom_Posts.php:31
+msgctxt "Post Type Singular Name"
+msgid "Link"
+msgstr ""
+
+#: templates/single-htpl-link.php:23
+msgid "Preview For - "
+msgstr ""
+
+#. Name of the plugin
+msgid "Preview Link Generator"
+msgstr ""
+
+#: includes/Admin/Metaboxes.php:23
+msgid "Preview Link Options"
+msgstr ""
+
+#: includes/Custom_Posts.php:32
+msgid "Preview Links"
+msgstr ""
+
+#: includes/Custom_Posts.php:48
+msgid "Remove featured image"
+msgstr ""
+
+#: includes/Admin/Global_Settings.php:60
+msgid "Rewrite Slug"
+msgstr ""
+
+#: includes/Taxonomies.php:34
+msgid "Search Items"
+msgstr ""
+
+#: includes/Custom_Posts.php:43
+msgid "Search Link"
+msgstr ""
+
+#: includes/Taxonomies.php:30
+msgid "Separate items with commas"
+msgstr ""
+
+#: includes/Custom_Posts.php:47
+msgid "Set featured image"
+msgstr ""
+
+#: includes/Admin/Global_Settings.php:24
+msgid "Settings"
+msgstr ""
+
+#: includes/Taxonomies.php:19
+msgctxt "Taxonomy General Name"
+msgid "Categories"
+msgstr ""
+
+#: includes/Taxonomies.php:20
+msgctxt "Taxonomy Singular Name"
+msgid "Categories"
+msgstr ""
+
+#. Description of the plugin
+msgid "Template Preview Link Generator for WordPresss"
+msgstr ""
+
+#: includes/Admin/Global_Settings.php:73
+msgid "To change the default post type slug. Write your desired slug here."
+msgstr ""
+
+#: includes/Taxonomies.php:28
+msgid "Update Item"
+msgstr ""
+
+#: includes/Custom_Posts.php:41
+msgid "Update Link"
+msgstr ""
+
+#: includes/Custom_Posts.php:51
+msgid "Uploaded to this item"
+msgstr ""
+
+#: includes/Custom_Posts.php:49
+msgid "Use as featured image"
+msgstr ""
+
+#: includes/Admin/Global_Settings.php:64
+msgid "Use Custom Slug"
+msgstr ""
+
+#: includes/Taxonomies.php:29
+msgid "View Item"
+msgstr ""
+
+#: includes/Custom_Posts.php:42
+msgid "View Link"
+msgstr ""
