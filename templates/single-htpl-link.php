@@ -687,9 +687,9 @@
 			<?php echo esc_html( $buynow_button_text ); ?>
 			<span class="icon-circle">
 				<!-- Right Arrow SVG -->
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16" fill="#2a1445">
-					<path d="M9 4l8 8-8 8"></path>
-				</svg>
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+				<path d="M9 4l8 8-8 8M0 12H17" stroke="#2a1445" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+			</svg>
 				
 			</span>
 		</a>
