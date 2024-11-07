@@ -580,16 +580,9 @@
 /* Button styling */
 .btn {
 	display: flex;
-	align-items: center;
-	font-size: 16px;
+	align-items: center; 
 	color: #fff;
-	background-color: #2a1445;
-	padding: 7px 10px;
-	border: none;
-	border-radius: 24px;
-	text-decoration: none;
-	transition: background-color 0.3s ease;
- 
+	background-color: #2a1445;      
 	font-weight: 400;
 	line-height: 1.75; 
 	text-align: center;
@@ -618,16 +611,24 @@
 	justify-content: center;
 	background-color: #f3ff2d;
 	border-radius: 50%;
-	width: 32px; /* Adjust size as needed */
+	width: 32px;
 	height: 32px;
 	margin: 0 10px;
+	padding: 0; /* Remove any default padding */
 }
 
 /* SVG styling */
 .icon-circle svg {
-	width: 20px; /* Control SVG size */
+	width: 20px;
 	height: 20px;
+	display: block; /* Ensures SVG is centered within the flex container */
+	margin: auto;
+	transform: translateX(-2px); /* Adjusts slight off-center alignment */
 	fill: #2a1445; /* SVG fill color */
+}
+
+.buy-btn svg {
+	transform: translateX(2px); /* Slight nudge to center */
 }
 
 
@@ -650,11 +651,53 @@
 	margin-right: 0;
 }
 
-.buy-btn .icon-circle {
-	margin-left: 10px;
-}
 .buy-btn {
 	padding-left: 30px;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+	/* Stack buttons vertically and center them */
+	.preview-topbar {
+		flex-direction: column;
+		padding: 15px;
+	}
+
+	.btn {
+		width: 100%;
+		justify-content: center;
+		font-size: 14px;
+		padding: 8px 15px;
+		margin: 5px 0;
+	}
+
+	.icon-circle {
+		width: 28px;
+		height: 28px;
+		margin: 0 5px;
+	}
+
+	.icon-circle svg {
+		width: 18px;
+		height: 18px;
+	}
+}
+
+@media (max-width: 480px) {
+	.btn {
+		font-size: 12px;
+		padding: 6px 10px;
+	}
+
+	.icon-circle {
+		width: 24px;
+		height: 24px;
+	}
+
+	.icon-circle svg {
+		width: 16px;
+		height: 16px;
+	}
 }
 
 	</style>
@@ -675,11 +718,10 @@
 	<div class="preview-topbar">
 		<a href="<?php echo ( $back_button_link ? esc_url( $back_button_link ) : '../' ); ?>" class="btn back-btn">
 			<span class="icon-circle">
-				   <!-- Left Arrow with Line SVG -->
-					<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-						<path d="M15 4l-8 8 8 8M7 12H24" stroke="#2a1445" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-					</svg>
-				
+				<!-- Left Arrow with Line SVG -->
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+					<path d="M15 4l-8 8 8 8M7 12H24" stroke="#2a1445" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>				
 			</span>
 			<?php echo esc_html( $back_button_text ); ?>
 		</a>
@@ -687,10 +729,9 @@
 			<?php echo esc_html( $buynow_button_text ); ?>
 			<span class="icon-circle">
 				<!-- Right Arrow SVG -->
-				<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
-				<path d="M9 4l8 8-8 8M0 12H17" stroke="#2a1445" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-			</svg>
-				
+				<svg xmlns="http://www.w3.org/2000/svg" viewBox="2 2 20 20" width="24" height="24">
+					<path d="M9 4l8 8-8 8M0 12H17" stroke="#2a1445" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+				</svg>
 			</span>
 		</a>
 	</div>
